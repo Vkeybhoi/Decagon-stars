@@ -5,3 +5,61 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
+.hide {
+    display: none;
+}
+#player1 {
+    background-image: url(s.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100vh;
+    
+    
+}
+ul {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+ul li{
+    margin: 24px 16px;
+    width: 160px;
+    list-style: none;
+    background-color: rgb(220, 133, 133);
+    border-radius: 5px;
+    text-align: center;
+}
+.top1 {
+    text-align: center;
+    color: brown;
+    font-weight: bolder;
+    font-size: 30px;
+    
+}
+
+.info{
+    background-image: url(y.jpg);
+    background-size: 100% 100vh;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat ;
+    text-align: center;
+    height: 100vh;
+    
+     /* background-attachment: fixed;
+     background-size: 100%;
+     text-align: center;
+     height: 100vh;
+     background-repeat: no-repeat; */
+     
+}
+img {
+    border-radius: 15%;
+    /* margin-left: 40%; */
+}
+.mate{
+    border-radius: 10px;
+    width: 80px;
+    margin-top: 10px;
+}
